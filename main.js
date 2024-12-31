@@ -24,8 +24,12 @@ if(true){
 }
 
 if(true){
-    const a = {nome: "Victor"};
-    a.nome = "Evangelista";
-    console.log(a);
+    const a = {nome: "victor"}; // Declaração da variável "a" que recebe um objeto com valor.
+    a.nome = "lucas" // Modificação do valor do objeto
+
+    const b = {sobrenome: "silva"}; // Declaração da variável "a" que recebe um objeto com valor.
+    b.sobrenome = "santos"; // Modificação do valor do objeto
+
+    console.log(a, b);  
 }
 
