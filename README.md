@@ -13,6 +13,6 @@
 # Exemplo em Código
  
 
-<img src="imagens/fig1.png" style="height: 220px; width: 300px;"> <br>
+<img src="Imagens/fig1.png" style="height: 220px; width: 300px;"> <br>
 <img src="Imagens/fig2.png" style="height: 220px; width: 300px;"> <br>
 <img src="Imagens/fig3.png" style="height: 220px; width: 300px;">
