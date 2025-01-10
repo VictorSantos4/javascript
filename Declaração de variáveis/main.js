@@ -13,8 +13,10 @@ console.log(a) // Nota-se que o "console.log" está fora das chaves e mesmo assi
 
 if(true){
     let a = 20;
-    console.log(a); // Agora com o uso do "let" o "console.log" só funcionará caso ele esteja dentro das chaves!
-}
+    a = 900;
+    console.log(a);
+}  // Agora com o uso do "let" o "console.log" só funcionará caso ele esteja dentro das chaves!
+
 
 // "Const" - Característica similar ao "let" onde o "console.log" só funciona dentro do escopo, mas em particularidade uma constante não pode ser reatribuida, mas pode ser modificada no caso de ser um objeto!
 
@@ -24,11 +26,11 @@ if(true){
 }
 
 if(true){
-    const a = {nome: "victor"}; // Declaração da variável "a" que recebe um objeto com valor.
-    a.nome = "lucas"; // Modificação do valor do objeto
+    const a = {nome: "victor"}; 
+    a.nome = "lucas"; 
 
-    const b = {sobrenome: "silva"}; // Declaração da variável "a" que recebe um objeto com valor.
-    b.sobrenome = "santos"; // Modificação do valor do objeto
+    const b = {sobrenome: "silva"}; 
+    b.sobrenome = "santos"; 
 
     console.log(a, b);  
 }

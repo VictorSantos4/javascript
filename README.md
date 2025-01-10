@@ -1,4 +1,16 @@
 # Declaração de variáveis (relatório 31/12/24)
 
-### Na seguinte pasta <a href="https://github.com/VictorSantos4/javascript/tree/main/Declara%C3%A7%C3%A3o%20de%20vari%C3%A1veis"> Declaração de variáveis</a> encontrada no repositório foram revisados as formas de como podem ser realizadas declarações de variavéis no <a href="https://www.javascript.com/">JavaScript</a>, portanto as declarações focadas são "<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/let">Let</a>", "<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/var">Var</a>" e "<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/const">Const</a>". No entanto podem ser visualizadas similaridades entre as declarações "var" e "let" onde os valores declarados nas variáveis pode ser reatribuidos com a mesma variável. **EXEMPLO:** <br>
-<img href="Imagens" >
+
+| Características   | Var   | Let   | Const |
+|:------------|:------------|:------------|:-------------|
+| **Escopo**  | *Função ou global* | *bloco*  | *bloco* |
+| **hoisting**    | *Declarada, valor undefined*  | *Zona Temporal Morta*  | *Zona Temporal Morta* |
+| **Redeclaração**  | *Permitida no mesmo escopo*  |  *Não permitida no mesmo escopo* | *Não permitida no mesmo escopo* |
+| **Reatribuição**  | *Permitida*  | *Permitida*  | *Não Permitida* |
+| **Imutabilidade** | *Não* | *Não* | *Sim (valor primitivo)* |
+| **Uso típico** | *Código antigo ou legado* | *Variáveis que mudam de valor* | *Constantes ou valores imutáveis* |
+
+# Exemplo em Código
+ 
+
+<img src="imagens/fig1.png" style="height: 220px; width: 300px;"> <img src="Imagens/fig2.png" style="height: 220px; width: 300px;"> <img src="Imagens/fig3.png" style="height: 220px; width: 300px;">
